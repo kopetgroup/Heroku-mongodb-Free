@@ -1,0 +1,19 @@
+{
+  "name": "Heroku & Mongo Launcher",
+  "description": "heroku php & mongodb launcher",
+  "keywords": [
+    "MongoDB",
+    "mLab"
+  ],
+  "repository": "https://github.com/kopetgroup/Heroku-mongodb-Free.git",
+  "success_url": "/",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+    "mongolab"
+  ]
+}
